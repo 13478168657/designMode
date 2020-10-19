@@ -5,8 +5,7 @@ namespace factory;
 
 abstract class SocialNetworkPoster{
 
-	abstract public function getSocialNetwork();
-
+    abstract public function getSocialNetwork();
 
 
 	public function post($content){
@@ -17,6 +16,4 @@ abstract class SocialNetworkPoster{
         $network->createPost($content);
         $network->logout();
     }
-
-    
 }

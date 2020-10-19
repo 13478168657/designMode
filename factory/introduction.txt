@@ -3,4 +3,14 @@
 单一原则
 
 
+创建工厂SocialNetworkPoster
 
+    子类 : FacebookPoster,LinkedInPoster
+
+
+
+创建SocialNetworkConnector连接器接口
+
+    实现类：FacebookConnector , LinkedInConnector
+
+实现登录，推出，创建消息方法
