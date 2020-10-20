@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f97faaa1-19c3-4e8d-aca1-2c355c208e51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shengchengqi/introduction.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prototype/Author.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prototype/Page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prototype/actionController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shengchengqi/MysqlQueryBuilder.php" afterPath="$PROJECT_DIR$/shengchengqi/MysqlQueryBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shengchengqi/SQLQueryBuilder.php" afterPath="$PROJECT_DIR$/shengchengqi/SQLQueryBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shengchengqi/actionController.php" afterPath="$PROJECT_DIR$/shengchengqi/actionController.php" />
     </list>
     <ignored path="design.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,31 +37,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MysqlQueryBuilder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shengchengqi/MysqlQueryBuilder.php">
+      <file leaf-file-name="Page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prototype/Page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.354838">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.68158346">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostgresQueryBuilder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shengchengqi/PostgresQueryBuilder.php">
+      <file leaf-file-name="Author.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype/Author.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.354838">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actionController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shengchengqi/actionController.php">
+      <file leaf-file-name="actionController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype/actionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43201378">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.387097">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -97,8 +96,6 @@
         <option value="$PROJECT_DIR$/abstractFactory/PHPTemplatePageTemplate.php" />
         <option value="$PROJECT_DIR$/abstractFactory/TwigTitleTemplate.php" />
         <option value="$PROJECT_DIR$/abstractFactory/PHPTemplateFactory.php" />
-        <option value="$PROJECT_DIR$/factory/FacebookPoster.php" />
-        <option value="$PROJECT_DIR$/factory/SocialNetworkPoster.php" />
         <option value="$PROJECT_DIR$/abstractFactory/actionController.php" />
         <option value="$PROJECT_DIR$/abstractFactory/BasePageTemplate.php" />
         <option value="$PROJECT_DIR$/shengchengqi/SQLQueryBuilder.php" />
@@ -106,6 +103,11 @@
         <option value="$PROJECT_DIR$/shengchengqi/MysqlQueryBuilder.php" />
         <option value="$PROJECT_DIR$/shengchengqi/actionController.php" />
         <option value="$PROJECT_DIR$/shengchengqi/introduction.txt" />
+        <option value="$PROJECT_DIR$/factory/FacebookPoster.php" />
+        <option value="$PROJECT_DIR$/factory/SocialNetworkPoster.php" />
+        <option value="$PROJECT_DIR$/prototype/actionController.php" />
+        <option value="$PROJECT_DIR$/prototype/Author.php" />
+        <option value="$PROJECT_DIR$/prototype/Page.php" />
       </list>
     </option>
   </component>
@@ -166,6 +168,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,21 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/SocialNetworkPoster.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26597583">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/FacebookPoster.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64594126">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abstractFactory/TemplateRenderer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26597583">
@@ -534,18 +535,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shengchengqi/MysqlQueryBuilder.php">
+    <entry file="file://$PROJECT_DIR$/shengchengqi/introduction.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.354838">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.035947714">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/SocialNetworkPoster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41652325">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengchengqi/actionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41652325">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shengchengqi/PostgresQueryBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.354838">
+        <state vertical-scroll-proportion="0.605852">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/FacebookPoster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56798625">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengchengqi/MysqlQueryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.697074">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -558,18 +591,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shengchengqi/introduction.txt">
+    <entry file="file://$PROJECT_DIR$/prototype/actionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035947714">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state vertical-scroll-proportion="-7.387097">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shengchengqi/actionController.php">
+    <entry file="file://$PROJECT_DIR$/prototype/Author.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43201378">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.354838">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68158346">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding />
         </state>
       </provider>
