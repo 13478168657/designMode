@@ -6,7 +6,7 @@ include_once 'BasePageTemplate.php';
 
 class PHPTemplatePageTemplate extends BasePageTemplate{
 
-
+    
     public function getTemplateString(){
 
         $renderedTitle = $this->titleTemplate->getTemplateString();

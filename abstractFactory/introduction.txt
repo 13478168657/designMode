@@ -5,3 +5,15 @@
 抽象工厂类
     TemplateFactory.php
 
+        子类工厂->生成具体产品:
+
+            PHPTemplateFactory.php====>(生成具体模块，标头模块，表页模块，模块渲染)
+
+
+            TwigTemplateFactory.php===>>(生成具体模块，标头模块，表页模块，模块渲染)
+
+
+
+
+
+

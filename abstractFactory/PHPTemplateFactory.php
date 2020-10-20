@@ -6,6 +6,10 @@ include_once  'TemplateFactory.php';
 include_once  'PHPTemplatePageTemplate.php';
 include_once  'PHPTemplateTitleTemplate.php';
 include_once  'PHPTemplateRenderer.php';
+/**
+ *
+ * PHP模版工厂,返回页头，内页，渲染模块；
+ */
 class PHPTemplateFactory implements TemplateFactory{
 
 
