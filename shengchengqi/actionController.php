@@ -15,7 +15,7 @@ class actionController{
             ->where("age", 30, "<")
             ->limit(10, 20)
             ->getSQL();
-            
+
         echo $query;
     }
 }

@@ -57,4 +57,7 @@ class MysqlQueryBuilder implements SQLQueryBuilder{
         return $sql;
     }
 
+    public function get(){
+
+    }
 }

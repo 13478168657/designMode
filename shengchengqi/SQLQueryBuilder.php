@@ -12,4 +12,6 @@ interface SQLQueryBuilder{
     public function limit($start, $offset);
 
     public function getSQL();
+
+    public function get();
 }
