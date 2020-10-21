@@ -14,7 +14,7 @@ class Page{
 
     private $date;
 
-    public function __construct($title,$body,Author $author)
+    public function __construct($title,$body, Author $author)
     {
         $this->title = $title;
         $this->body = $body;
@@ -33,6 +33,6 @@ class Page{
         $this->title = "Copy of " . $this->title;
         $this->author->addToPage($this);
         $this->comments = [];
-        $this->date = new \DateTime();
+        $this->date = time();
     }
 }
