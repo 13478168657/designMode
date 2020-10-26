@@ -1,0 +1,320 @@
+html,
+body{
+    font-size: 16px;
+    background:#fff;
+    min-width:320px;
+    width:100%;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body,div,ul,li,a,span,ol,p,h1,h2,h3,h4,h5,h6,input,form,button,select,option,img,label,dt,dl,dd,textarea{
+    margin:0;
+    padding:0;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clearfix::after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+.dot{
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dotdot{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.none{
+    display:none;
+}
+.block{
+    display: block;
+}
+
+.clearfix{
+    *zoom: 1;/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+ul{
+    list-style: none;
+}
+
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.mt0{
+    margin-top:0px;
+}
+.mt2{
+    margin-top:2px;
+}
+.mt10{
+    margin-top:10px;
+}
+.mb0{
+    margin-top:0px;
+}
+.mb10{
+    margin-top:0px;
+}
+.ml0{
+    margin-left:0px;
+}
+.ml10{
+    margin-left:10px;
+}
+.mr0{
+    margin-left:0px;
+}
+.mr10{
+    margin-left:10px;
+}
+.nav{
+    position: relative;
+    top:0px;
+    left:0px;
+    min-width:1200px;
+    padding: 0 24px;
+    width:100%;
+    height:45px;
+    background: #fff;
+    color:#333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav .nav_list{
+    width: 1200px;
+    margin: 0 auto;
+    height:45px;
+}
+.nav_list>ul{
+    float:left;
+}
+.nav_list>ul li{
+    height:45px;
+    padding: 0px 8px;
+    float:left;
+    transition: background-color 0.3s;
+}
+.nav_list > ul li a.active{
+    border-bottom: 2px solid #D92E2E;
+}
+.nav_list > ul li:hover{
+    background:#f0f1f2;
+
+}
+.nav_list > ul li a{
+    display:block;
+    height:43px;
+    line-height:44px;
+    text-align:center;
+    font-size:14px;
+    color:#666C7A;
+}
+.nav_list > ul li a:hover{
+    color:#222429;
+}
+
+.nav_list .nav_search {
+    float:left;
+    width:260px;
+    height:32px;
+    border-radius:5px;
+    background: #F5F6F7;
+    margin: 6px 0 0 8px;
+    position:relative
+}
+
+.nav_list .search {
+    font-size: 14px;
+    color: #666C7A;
+    display: block;
+    width: 214px;
+    border:0;
+    padding:0 0 0 12px;
+    height: 32px;
+    border-radius: 5px;
+    /*background: 0 0;*/
+    background: #f5f6f7;
+}
+
+.nav_search a{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width:32px;
+    height:32px;
+    color:#ccc;
+    font-size:14px;
+    transition: background-color .5s;
+}
+.nav_search a:hover{
+    background-color:rgba(165,171,184,.2);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?n1b7bl');
+    src:  url('../fonts/icomoon.eot?n1b7bl#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?n1b7bl') format('truetype'),
+    url('../fonts/icomoon.woff?n1b7bl') format('woff'),
+    url('../fonts/icomoon.svg?n1b7bl#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.icon-search{
+    font-family: 'icomoon' !important;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 8px;
+}
+.icon-search:before {
+    content: "\e986";
+}
+.nav_list .user{
+    float:right;
+}
+.nav_list .user li{
+    position: relative;
+    float:left;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    font-size:14px;
+    padding:0 8px;
+}
+.nav_list .user li> a{
+    display: block;
+    height:46px;
+    line-height:45px;
+    text-align:center;
+}
+.nav_list .user li:nth-child(2) a{
+    color:#666C7A;
+    font-size:16px;
+}
+.nav_list .user li:first-child {
+    color:#D92E2E;
+    transition: background-color .5s;
+}
+.nav_list .user li:first-child > a{
+    /*padding: 0 8px;*/
+    color:#D92E2E;
+}
+.nav_list .user li:first-child:hover{
+    background: #FFF2F0;
+    color:#CA0C16;
+}
+.nav_list .user li:first-child > a i{
+    line-height:45px;
+    font-family: "icomoon";
+    font-size:12px;
+    margin-right: 2px;
+    border-bottom:1px solid red;
+}
+.icon-bell{
+    font-family: 'icomoon' !important;
+    font-size: 14px;
+    line-height: 44px;
+    margin-left: 2px;
+    color:#666C7A;
+}
+.icon-bell:before {
+    content: "\e951";
+}
+
+.ntc_list{
+    position: absolute;
+    top:45px;
+    left:-32px;
+    width:100px;
+    background: #fff;
+    padding: 8px 0px;
+}
+.ntc_list dd{
+    padding:0px 16px;
+    text-align: left;
+    transition: background-color .2s;
+}
+.ntc_list dd:hover{
+   background-color: #f5f6f7;
+}
+.ntc_list dd a{
+    display: block;
+    height: 40px;
+    font-size: 14px;
+    color: #3D3D3D;
+    letter-spacing: 0;
+    line-height: 40px;
+    text-align: left;
+}
+.user_center{
+    display: block;
+    height:45px;
+    width:32px;
+    border-radius:50%;
+}
+.user_center img{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+}
+.bgfff{
+    background: #fff;
+}
+.uc_list{
+    position: absolute;
+    top:45px;
+    right:0px;
+    padding:8px 0px;
+    width:100px;
+    background: #fff;
+}
+
+.uc_list dd{
+    padding: 0 8px;
+    transition: background-color .3s;
+}
+.uc_list a{
+    display: inline-block;
+    height:40px;
+    width:84px;
+    line-height: 40px;
+
+}
+.uc_list dd:hover{
+    background-color: #f5f6f7;
+}
+

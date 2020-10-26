@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>厚学赢-详情页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maxinum-scale=1.0,mininum-scale=1.0"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/detail.css" rel="stylesheet"/>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="dist/css/layui.css"  media="all">
+    <script src="dist/layui.js" charset="utf-8"></script>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="top_bar">
+            <div class="bar_l">
+                <a href="#">
+                    <img src="./images/lb_down.jpg"/>
+                </a>
+            </div>
+            <div class="bar_m">
+                <i class="fa fa-search"></i>
+                <input type="text" name="search"/>
+            </div>
+            <div class="bar_r">
+                <a href="#">登录</a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="article">
+            <h1>Java虚拟机的运行机制及原理，如何有效的利用</h1>
+            <div class="art_info clearfix">
+                <div class="info_l fl">
+                    <a href="#">
+                        <img src="./images/photo.jpg"/>
+                    </a>
+                </div>
+                <div class="info_m fl">
+                    <p>杨正兴</p>
+                    <p>1244次阅读&nbsp;&nbsp;&nbsp;2019-12-11</p>
+                </div>
+                <div class="info_r fr">
+                    <a href="#">关注</a>
+                </div>
+            </div>
+            <div class="art_detail">
+                <p style="text-align: left;"><span style="font-family:arial, helvetica, sans-serif;;font-size:16px">不是倚老卖老啊，只是想以过来人的角度，为刚接触健身这项运动的朋友提一些小建议。</span></p><p style="text-align: left;"><span style="font-family:arial, helvetica, sans-serif;font-size:16px"><br/></span></p><p style="text-align: left;"><span style="font-family:arial, helvetica, sans-serif;font-size:16px"><span style="text-indent: 28px;">1.</span><span style="text-indent: 28px;">安全第一</span></span></p><p style="text-align: left;"><span style="text-indent: 28px;font-family:arial, helvetica, sans-serif;font-size:16px">千万别觉得这是废话，对一般健身者来说，受伤是最愚蠢的事情。健美运动员冒着受伤的风险或者牺牲健康追求运动成绩是他们的选择，对一般人，尤其是小白，不适用。这里有几点：一是保护自己，自己不要伤害自己，做好热身，做器械练习时检查好重量，器械位置（固定器械有些需要自己调节到合适高度或者位置），保护装置是否都没有问题，周围环境是否安全（器械太乱就要当心了）；二是不要让别人伤害到自己，和运动中的人保持安全距离，看见有人动作不稳定，或者重量太大又没有保护措施的时候，也离他远一点；三是不要伤害到别人，做动作之前看看身边有没有别人，不要误伤，放器械时也要悄悄归位，不要随便扔在地上，可能会弹起砸到别人。</span></p></p>
+            </div>
+        </div>
+        <div class="comment">
+
+        </div>
+        <div class="hot">
+            <div class="tit">
+                <h2>热门推荐</h2>
+            </div>
+            <div class="hot_list">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>真正的技术实战</h3>
+                            <div class="hot_info">
+                                <span>杨正兴</span>
+                                <span>2323次阅读</span>
+                                <span>2019-07-22</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>真正的技术实战</h3>
+                            <div class="hot_info">
+                                <span>杨正兴</span>
+                                <span>2323次阅读</span>
+                                <span>2019-07-22</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>真正的技术实战</h3>
+                            <div class="hot_info">
+                                <span>杨正兴</span>
+                                <span>2323次阅读</span>
+                                <span>2019-07-22</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    layui.use(['carousel', 'form'], function(){
+        var carousel = layui.carousel
+                ,form = layui.form;
+        //图片轮播
+        carousel.render({
+            elem: '#test10'
+            ,width: '508px'
+            ,height: '206px'
+            ,interval: 3000
+        });
+
+    });
+    var windWidth = $(window).width();
+    $(window).resize(function() {
+        windWidth = $(window).width();
+
+    });
+    window.onscroll = function () {
+        var dance = document.body.scrollTop || document.documentElement.scrollTop;//获取滚动条据顶部位置
+        var ntop = (windWidth-1180)/2;
+        if (dance > 50) { //距离大于0时设置固定在顶部样式fixed-top
+            $(".nav").attr('style',"position:fixed;z-index:999;");
+            $("nav").attr('style',"position:fixed;z-index:9;bottom:0px;left:"+ntop+"px;")
+        } else {
+            $(".nav").attr('style',"position:relative;");
+            $("nav").attr('style',"position:relative;")
+        }
+    };
+</script>
+</html>
