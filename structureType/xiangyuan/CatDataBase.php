@@ -34,7 +34,9 @@ class CatDataBase{
 
     private function getKey($data)
     {
-        return md5(implode("_", $data));
+        $str = md5(implode("_",$data));
+
+        return $str;
     }
 
     public function findCat($query)
@@ -44,6 +46,7 @@ class CatDataBase{
                 return $cat;
             }
         }
+
         echo "CatDataBase: Sorry, your query does not yield any results.";
     }
 

@@ -7,11 +7,18 @@ include_once 'Cat.php';
 include_once 'CatVariation.php';
 class actionController{
 
+
+    public function __construct()
+    {
+
+    }
+
     public function index(){
 
 
     }
 }
+
 
 $db = new CatDataBase();
 
@@ -24,6 +31,7 @@ $handle = fopen(__DIR__ . "/cats.csv", "r");
 $row = 0;
 $columns = [];
 while (($data = fgetcsv($handle)) !== false) {
+    print_r($data);
     if ($row == 0) {
         for ($c = 0; $c < count($data); $c++) {
             $columnIndex = $c;
