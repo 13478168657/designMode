@@ -29,7 +29,6 @@ $onboarding = new OnboardingNotification("1@example.com");
 events()->attach($onboarding, "users:created");
 
 
-
 $repository->initialize(__DIR__ . "users.csv");
 
 

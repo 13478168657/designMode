@@ -35,6 +35,7 @@ class EventDispatcher{
         $this->initEventGroup($event);
 
         $this->observers[$event][] = $observer;
+        print_r($this->observers);
     }
 
     public function detach(Observer $observer, $event = "*")
@@ -49,7 +50,9 @@ class EventDispatcher{
     public function trigger($event, $emitter, $data = null)
     {
         echo "EventDispatcher: Broadcasting the '$event' event.\n";
-        foreach ($this->getEventObservers($event) as $observer) {
+        $observers = $this->getEventObservers($event);
+//        print_r($observers);
+        foreach ($observers as $observer) {
             $observer->update($event, $emitter, $data);
         }
     }

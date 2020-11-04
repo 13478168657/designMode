@@ -1,9 +1,10 @@
 <?php
 
-namespace zhongjiezhe;
+namespace observer;
 
 
-class Logger implements Observer{
+class Logger implements \SplObserver{
+
 
     private $filename;
 
@@ -15,9 +16,8 @@ class Logger implements Observer{
         }
     }
 
-    public function update($event, $emitter, $data = null)
+    public function update(\SplSubject $repository, $event = null, $data = null)
     {
-//        print_r(date('Y-m-d H:i:s'));
         $entry = date("Y-m-d H:i:s") . ": '$event' with data '" . json_encode($data) . "'\n";
         file_put_contents($this->filename, $entry, FILE_APPEND);
 
