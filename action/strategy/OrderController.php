@@ -72,7 +72,7 @@ class OrderController
     /**
      * GET /orders
      */
-    public function getAllOrders(): void
+    public function getAllOrders()
     {
         echo "Controller: Here's all orders:\n";
         foreach (Order::get() as $order) {

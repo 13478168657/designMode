@@ -32,6 +32,7 @@ $controller->post("/orders", [
     "total" => 19.95,
 ]);
 
+print_r($controller);
 echo "\nClient: List my orders, please\n";
 
 $controller->get("/orders");
