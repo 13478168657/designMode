@@ -19,6 +19,10 @@ class Facebook extends SocialNetwork
         return true;
     }
 
+    public function logiIn($user,$x,$y){
+
+    }
+
     public function sendData($message)
     {
         echo "Facebook: '" . $this->username . "' has posted '" . $message . "'.\n";
