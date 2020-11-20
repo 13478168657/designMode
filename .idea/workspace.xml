@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f97faaa1-19c3-4e8d-aca1-2c355c208e51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/container/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/container/FileLog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/container/Ioc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/container/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/container/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/injection/AbstractConfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/injection/ArrayConfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/injection/Connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/injection/Parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/injection/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lara/injection/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f97faaa1-19c3-4e8d-aca1-2c355c208e51" name="Default" comment="" />
     <ignored path="design.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
