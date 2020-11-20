@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f97faaa1-19c3-4e8d-aca1-2c355c208e51" name="Default" comment="" />
+    <list default="true" id="f97faaa1-19c3-4e8d-aca1-2c355c208e51" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lara/container/Ioc.php" afterPath="$PROJECT_DIR$/lara/container/Ioc.php" />
+    </list>
     <ignored path="design.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -45,8 +47,8 @@
       <file leaf-file-name="Ioc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lara/container/Ioc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33904108">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.47260273">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -718,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lara/container/Ioc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33904108">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.47260273">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
       </provider>
